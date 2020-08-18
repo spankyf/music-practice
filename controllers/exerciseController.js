@@ -1,22 +1,29 @@
 const db = require("../models");
+var { PythonShell } = require("python-shell");
 
 exports.getExercises = async (req, res) => {
-  const exercises = await db.Exercise.findAll({ order: [["datetime", "ASC"]] });
+  let options = {
+    mode: "text",
+    pythonPath: "C:/Users/dean/anaconda3/python.exe",
+  };
 
-  res.status(200).render("pages/exercises", {
-    title: "All Exercises Report",
-    data: exercises,
-  });
-};
+  PythonShell.run(
+    "C:/Users/dean/Desktop/coding/music-practice/practice_2.0.py",
+    options,
+    function (err, results) {
+      if (err) {
+        res.status(500).send({
+          error: err,
+        });
+        console.log(err);
+        return;
+      }
+      let obj = JSON.parse(results);
 
-exports.addExercise = async (req, res) => {
-  //const reqBody = req.body;
-  //req.body.duration = calculateSleepDuration(reqBody);
-
-  const newExercise = await db.Exercise.create(req.body);
-  console.log(req.body);
-  res.status(201).render("pages/exercises", {
-    status: "success",
-    data: newExercise,
-  });
+      res.status(200).send({
+        message: "Success",
+        data: obj,
+      });
+    }
+  );
 };
