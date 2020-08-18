@@ -1,0 +1,26 @@
+{
+  "name": "music-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spankyf/music-practice.git"
+  },
+  "author": "Dean Flanagan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spankyf/music-practice/issues"
+  },
+  "homepage": "https://github.com/spankyf/music-practice#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.3.0",
+    "pug": "^3.0.0",
+    "sequelize": "^6.3.4"
+  }
+}

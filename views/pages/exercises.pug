@@ -1,0 +1,35 @@
+doctype html
+html(lang="en")
+  head
+    title= title
+
+    link(rel="stylesheet" type="text/css" href="/styles.css")
+  body
+    include ../partials/_header
+    h1 Music Practice Tracker
+    p This is the habit rabbit website. You can track your habits, update them daily and view your progress towards your goals!
+    .habit__container
+      
+
+      each val in ['Bass', 'Guitar', 'Vocals', 'Piano', 'Midi']
+        ul.habit__card
+          li.card__li= val
+
+          
+
+          //- li.card__li  is the goal per  and you're currently at val
+          //- if val.passing
+          //-   li.card__li.card__passing Well Done! You're achieving your goal!
+          //- else  
+          //- li.card__li.card__failing You can do better... one day at a time!
+
+
+          //- if !val.today
+          //-   li.card__li
+          //-     if val.frequency == 'day'
+          //-       a.flashit(href= val.href) Click here to log daily 
+          //-     else  
+          //-       a(href= val.href) Click here to log or review any data!
+          //- else
+          //-   li.card__li
+          //-     a(href= val.href) Click here to review your  data!
