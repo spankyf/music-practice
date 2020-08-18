@@ -19,8 +19,8 @@ exports.getExercises = async (req, res) => {
         return;
       }
       let obj = JSON.parse(results);
-
-      res.status(200).send({
+      //console.log(obj);
+      res.status(200).render("pages/exercises", {
         message: "Success",
         data: obj,
       });
