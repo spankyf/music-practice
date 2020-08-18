@@ -85,14 +85,6 @@ def tonal_scales_triads(tonality=random.choice([harmonic_minor, melodic_minor, m
     return key,tonal_scales, scale_triads
 
 
-    
-
-# key,scales, triads = tonal_scales_triads()
-
-# for n in range(3,8):
-#     print(random.sample(triads, n))
-#     print()
-
 if __name__ == "__main__":
 
     tonal_scales_triads()

@@ -1,0 +1,19 @@
+description,time
+E String – closed – root,1
+A String – closed – root,1
+D String – closed – root,1
+G String – closed – root,1
+E String – closed – 2nd inversion,1
+A String – closed – 2nd inversion,1
+D String – closed – 2nd inversion,1
+G String – closed – 2nd inversion,1
+E String – closed – 3rd inversion,1
+A String – closed – 3rd inversion,1
+D String – closed – 3rd inversion,1
+G String – closed – 3rd inversion,1
+E String – open – root,1
+A String – open – root,1
+D String – open – root,1
+E String – open – 2nd inversion,1
+A String – open – 2nd inversion,1
+D String – open – 2nd inversion,1

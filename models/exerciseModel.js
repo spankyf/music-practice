@@ -34,7 +34,7 @@ module.exports = (sequelize, DataTypes) => {
       },
       instrument: {
         type: DataTypes.ENUM({
-          values: ["bass", "piano", "guitar", "vocals", "midi"],
+          values: ["bass", "piano", "guitar", "vocals"],
         }),
 
         allowNull: false,
