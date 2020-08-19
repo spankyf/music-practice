@@ -8,14 +8,20 @@ html(lang="en")
     include ../partials/_header
     h1 Music Practice Tracker
     p This is the music practic tracker. You can track your habits, update them daily and view your progress towards your goals!
-    for val in data
-      p= val
     .habit__container
       
 
-      each val in ['Bass', 'Guitar', 'Vocals', 'Piano', 'Midi']
-        ul.habit__card
-          li.card__li= val
+      each val in data
+        
+        
+          for ex in val
+            ul.habit__card
+              h3= ex.instrument
+              li.card__li= ex.key
+              li.card__li= ex.category
+              li.card__li= ex.minutes
+              if ex.material
+                li.card__li= ex.material
 
           
 
