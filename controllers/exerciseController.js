@@ -20,10 +20,18 @@ exports.getExercises = async (req, res) => {
       }
       let obj = JSON.parse(results);
 
+      var locals = {
+        logMe: function (val) {
+          console.log(val.toUpperCase());
+        },
+      };
+
       console.log(obj);
+      console.log(locals);
       res.status(200).render("pages/exercises", {
         message: "Success",
         data: obj,
+        locals,
       });
     }
   );

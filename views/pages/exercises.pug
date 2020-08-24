@@ -5,6 +5,7 @@ html(lang="en")
 
     link(rel="stylesheet" type="text/css" href="/styles.css")
   body
+
     include ../partials/_header
     h1 Music Practice Tracker
     p This is the music practic tracker. You can track your habits, update them daily and view your progress towards your goals!
@@ -13,31 +14,14 @@ html(lang="en")
 
       each val in data
         
-        
+        ul.habit__card
           for ex in val
-            ul.habit__card
-              h3= ex.instrument
-              li.card__li= ex.key
-              li.card__li= ex.category
-              li.card__li= ex.minutes
-              if ex.material
-                li.card__li= ex.material
-
-          
-
-          //- li.card__li  is the goal per  and you're currently at val
-          //- if val.passing
-          //-   li.card__li.card__passing Well Done! You're achieving your goal!
-          //- else  
-          //- li.card__li.card__failing You can do better... one day at a time!
-
-
-          //- if !val.today
-          //-   li.card__li
-          //-     if val.frequency == 'day'
-          //-       a.flashit(href= val.href) Click here to log daily 
-          //-     else  
-          //-       a(href= val.href) Click here to log or review any data!
-          //- else
-          //-   li.card__li
-          //-     a(href= val.href) Click here to review your  data!
+            
+            li.card__li #{ ex.key} #{ex.category} #{ex.minutes} #{ex.exercise} #{ex.material}
+            //- li.card__li= ex.category
+            //- li.card__li= ex.minutes
+            //- li.card__li= ex.exercise
+            //- if ex.material
+            //-   li.card__li= ex.material
+                //- button(type='button' value="Read More" onclick= locals.logMe()) Begin exercise for #{ex.minutes} minutes
+                //-onclick='gotoBlog(' + val.link + ')'
