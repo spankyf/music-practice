@@ -15,13 +15,22 @@ html(lang="en")
       each val in data
         
         ul.habit__card
+          h3= val[0].instrument
           for ex in val
-            
+
             li.card__li #{ ex.key} #{ex.category} #{ex.minutes} #{ex.exercise} #{ex.material}
-            //- li.card__li= ex.category
-            //- li.card__li= ex.minutes
-            //- li.card__li= ex.exercise
-            //- if ex.material
-            //-   li.card__li= ex.material
-                //- button(type='button' value="Read More" onclick= locals.logMe()) Begin exercise for #{ex.minutes} minutes
-                //-onclick='gotoBlog(' + val.link + ')'
+
+            form(action="/exercise",method="post")
+              input(type='datetime-local' name="datetime" value= localObj.now)
+              input(type='string' name="exercise" value= ex.exercise)
+              input(type='string' name="material" value= ex.material)
+              input(type='number' name="mins" value= ex.minutes)
+              input(type='string' name="category" value= ex.category)
+              input(type='string' name="instrument" value= ex.instrument)
+              
+              button(type='submit' value='New Rating!') Click me to submit your Work
+
+
+
+
+  script(src="/pugFunctions.js")

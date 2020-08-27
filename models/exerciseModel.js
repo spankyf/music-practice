@@ -1,4 +1,5 @@
 "use strict";
+const moment = require("moment");
 const { Model } = require("sequelize");
 module.exports = (sequelize, DataTypes) => {
   class Exercise extends Model {
@@ -16,26 +17,28 @@ module.exports = (sequelize, DataTypes) => {
       datetime: {
         type: DataTypes.DATE,
         allowNull: false,
-        unique: true,
-        primaryKey: true,
+
+        //primaryKey: true,
+        // defaultValue: moment().format(moment.HTML5_FMT.DATETIME_LOCAL),
       },
-      description: {
+      category: {
         type: DataTypes.STRING,
         allowNull: false,
       },
       mins: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.REAL,
         allowNull: false,
       },
-      inversions: {
-        type: DataTypes.INTEGER,
+      exercise: {
+        type: DataTypes.STRING,
         allowNull: false,
-        defaultValue: 0,
+      },
+      material: {
+        type: DataTypes.ARRAY(DataTypes.STRING),
+        // allowNull: false,
       },
       instrument: {
-        type: DataTypes.ENUM({
-          values: ["bass", "piano", "guitar", "vocals"],
-        }),
+        type: DataTypes.STRING,
 
         allowNull: false,
       },
@@ -51,13 +54,15 @@ module.exports = (sequelize, DataTypes) => {
     },
 
     {
+      hooks: {
+        beforeCreate: (exercise, options) => {
+          exercise.dataValues.material = JSON.parse(
+            exercise.dataValues.material
+          );
+        },
+      },
       sequelize,
       modelName: "Exercise",
-      // hooks: {
-      //   afterFind: (sleep, options) => {
-      //     console.log(sleep);
-      //   },
-      // },
     }
   );
 

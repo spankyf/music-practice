@@ -17,7 +17,7 @@ possible_triads = []
 
 for start in range(1,6):
     for second_interval in range(5, 12):
-        if second_interval - start > 1:
+        if second_interval - start > 1: # ensures interval is minimum 9th
             possible_triads.append((0,start, second_interval))
 
 qualities = {1:'b9',

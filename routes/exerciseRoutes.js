@@ -3,8 +3,10 @@ const exerciseController = require("../controllers/exerciseController");
 
 const router = express.Router();
 
-router.route("/").get(exerciseController.getExercises);
-//.post(exerciseController.addExercise);
+router
+  .route("/")
+  .get(exerciseController.getExercises)
+  .post(exerciseController.addExercise);
 
 // router
 //   .route("/:date")
