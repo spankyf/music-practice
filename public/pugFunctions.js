@@ -1,14 +1,20 @@
-const db = require("../models");
+const generateExercises = require("../utils/generateExercises");
 
-const hello = function hello(val) {
-  console.log(val);
-};
+const myPromise = new Promise(generateExercises.makeExercise()).then((res) =>
+  console.log(res)
+);
 
-const addExercise = async (req, res) => {
-  const newSleep = await db.Exercise.create(req.body);
-  console.log(req.body);
-  res.status(201).send({
-    status: "success",
-    data: newSleep,
+let myFirstPromise = new Promise((resolve, reject) => {
+  // We call resolve(...) when what we were doing asynchronously was successful, and reject(...) when it failed.
+  // In this example, we use setTimeout(...) to simulate async code.
+  // In reality, you will probably be using something like XHR or an HTML5 API.
+  generateExercises.makeExercise(function () {
+    resolve("Success!"); // Yay! Everything went well!
   });
-};
+});
+
+myFirstPromise.then((successMessage) => {
+  // successMessage is whatever we passed in the resolve(...) function above.
+  // It doesn't have to be a string, but if it is only a succeed message, it probably will be.
+  console.log("Yay! " + successMessage);
+});
