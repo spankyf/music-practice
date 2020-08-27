@@ -1,8 +1,7 @@
 var { PythonShell } = require("python-shell");
 const path = require("path");
 
-exports.makeExercise = function () {
-  let message;
+module.exports = function () {
   PythonShell.run(
     path.join(__dirname, "practice_2.0.py"),
     {
@@ -13,11 +12,10 @@ exports.makeExercise = function () {
       if (err) {
         throw err;
       }
-
+      let message;
       message = JSON.parse(res);
-      // return message;
+      console.log(message);
+      return message;
     }
   );
-  // console.log(obj);
-  return message;
 };
