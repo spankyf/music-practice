@@ -1,38 +1,41 @@
 const db = require("../models");
 const moment = require("moment");
-const path = require("path");
 var { PythonShell } = require("python-shell");
-const generateExercises = require("../utils/generateExercises");
 
-exports.getExercises = async (req, res) => {
-  let locals = {};
-  locals.hello = "hello";
-  locals.now = moment().format(moment.HTML5_FMT.DATETIME_LOCAL);
-
+exports.makeData = async (req, res, next) => {
   let options = {
     mode: "text",
-    pythonPath: "C:/Users/dean/anaconda3/python.exe",
+    pythonPath: "C:/Users/Dean/anaconda3/python",
+    pythonOptions: ["-u"],
+    scriptPath: "C:/Users/Dean/Desktop/coding/music-practice/utils",
   };
-  PythonShell.run(
-    "C:/Users/dean/Desktop/coding/music-practice/utils/practice_2.0.py",
-    options,
-    function (err, results) {
-      if (err) {
-        res.status(500).send({
-          error: err,
-        });
-        console.log(err);
-        return;
-      }
-      let obj = JSON.parse(results);
+  let pyshell = new PythonShell("practice_2.0.py", options);
 
-      res.status(200).render("pages/exercises", {
-        message: "Success",
-        data: obj,
-        localObj: locals,
-      });
-    }
-  );
+  pyshell.on("message", function (data) {
+    // received a message sent from the Python script (a simple "print" statement)
+    // console.log(data);
+    res.locals.messages = { data };
+    res.locals.now = moment().format(moment.HTML5_FMT.DATETIME_LOCAL);
+    next();
+  });
+
+  // end the input stream and allow the process to exit
+  pyshell.end(function (err, code, signal) {
+    if (err) throw err;
+    console.log("The exit code was: " + code);
+    console.log("The exit signal was: " + signal);
+    console.log("finished");
+  });
+};
+
+exports.getExercises = (req, res) => {
+  const data = JSON.parse(res.locals.messages.data);
+  // console.log(Object.getOwnPropertyNames(data));
+  // console.log(typeof data);
+  res.status(200).render("pages/exercises", {
+    message: "Success",
+    data,
+  });
 };
 
 exports.addExercise = async (req, res) => {

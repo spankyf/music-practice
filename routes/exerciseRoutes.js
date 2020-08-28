@@ -5,7 +5,7 @@ const router = express.Router();
 
 router
   .route("/")
-  .get(exerciseController.getExercises)
+  .get(exerciseController.makeData, exerciseController.getExercises)
   .post(exerciseController.addExercise);
 
 // router

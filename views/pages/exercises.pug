@@ -21,7 +21,7 @@ html(lang="en")
             li.card__li #{ ex.key} #{ex.category} #{ex.minutes} #{ex.exercise} #{ex.material}
 
             form(action="/exercise",method="post")
-              input(type='datetime-local' name="datetime" value= localObj.now)
+              input(type='datetime-local' name="datetime" value= locals.now)
               input(type='string' name="exercise" value= ex.exercise)
               input(type='string' name="material" value= ex.material)
               input(type='number' name="mins" value= ex.minutes)
