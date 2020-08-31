@@ -1,13 +1,14 @@
 const db = require("../models");
 const moment = require("moment");
+const path = require("path");
 var { PythonShell } = require("python-shell");
 
 exports.makeData = async (req, res, next) => {
   let options = {
     mode: "text",
-    //pythonPath: "C:/Users/Dean/anaconda3/python",
+    pythonPath: "C:/Users/Dean/anaconda3/python",
     pythonOptions: ["-u"],
-    scriptPath: "../utils",
+    scriptPath: path.join(__dirname, "..", "utils"),
   };
   let pyshell = new PythonShell("practice_1.9.py", options);
 
