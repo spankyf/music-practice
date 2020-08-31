@@ -19,6 +19,9 @@ def make_schedule():
     # print(os.getcwd())
     random.seed(datetime.date.today())
     for inst in list(filter(lambda x: '.' not in x, os.listdir('../public'))):
+        print(inst)
+        if inst == "\n":
+            continue
 
         ex_dict[inst] = []
         n_chords_progression = 3
