@@ -18,7 +18,7 @@ def make_schedule():
     key, scales, triads = build_practice.tonal_scales_triads()
     # print(os.getcwd())
     random.seed(datetime.date.today())
-    for inst in list(filter(lambda x: '.' not in x, os.listdir('../public'))):
+    for inst in list(filter(lambda x: '.' not in x, os.listdir('.app/public'))):
         print(inst)
         if inst == "\n":
             continue
@@ -26,10 +26,10 @@ def make_schedule():
         ex_dict[inst] = []
         n_chords_progression = 3
 
-        for exercise_filename in os.listdir(os.path.join('../public', inst)):
+        for exercise_filename in os.listdir(os.path.join('app/public', inst)):
             ex_category = exercise_filename.split('.')[0]
             ex_df = pd.read_csv(os.path.join(
-                '../public', inst, exercise_filename), encoding="ISO-8859-1")
+                'app/public', inst, exercise_filename), encoding="ISO-8859-1")
 
             if ex_category == 'scales':
                 content = list(random.choice(list(scales.values())))
