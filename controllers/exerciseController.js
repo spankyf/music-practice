@@ -9,7 +9,7 @@ exports.makeData = async (req, res, next) => {
     pythonOptions: ["-u"],
     scriptPath: "C:/Users/Dean/Desktop/coding/music-practice/utils",
   };
-  let pyshell = new PythonShell("practice_2.0.py", options);
+  let pyshell = new PythonShell("practice_1.9.py", options);
 
   pyshell.on("message", function (data) {
     // received a message sent from the Python script (a simple "print" statement)
