@@ -6,7 +6,7 @@ var { PythonShell } = require("python-shell");
 exports.makeData = async (req, res, next) => {
   let options = {
     mode: "text",
-    pythonPath: "C:/Users/Dean/anaconda3/python",
+    // pythonPath: "C:/Users/Dean/anaconda3/python",
     pythonOptions: ["-u"],
     scriptPath: path.join(__dirname, "..", "utils"),
   };
