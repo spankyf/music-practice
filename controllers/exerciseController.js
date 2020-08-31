@@ -5,9 +5,9 @@ var { PythonShell } = require("python-shell");
 exports.makeData = async (req, res, next) => {
   let options = {
     mode: "text",
-    pythonPath: "C:/Users/Dean/anaconda3/python",
+    //pythonPath: "C:/Users/Dean/anaconda3/python",
     pythonOptions: ["-u"],
-    scriptPath: "C:/Users/Dean/Desktop/coding/music-practice/utils",
+    scriptPath: "../utils",
   };
   let pyshell = new PythonShell("practice_1.9.py", options);
 
