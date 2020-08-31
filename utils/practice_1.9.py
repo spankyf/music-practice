@@ -18,7 +18,7 @@ def make_schedule():
     key, scales, triads = build_practice.tonal_scales_triads()
     # print(os.getcwd())
     random.seed(datetime.date.today())
-    for inst in list(filter(lambda x: '.' not in x, os.listdir('.app/public'))):
+    for inst in list(filter(lambda x: '.' not in x, os.listdir('app/public'))):
         print(inst)
         if inst == "\n":
             continue
