@@ -6,7 +6,16 @@ html(lang="en")
     link(rel="stylesheet" type="text/css" href="/styles.css")
   body
 
+
     include ../partials/_header
+    script.
+        // Sets the username of the current user to be displayed site-wide
+        function say() {
+            console.log('Hey asswipe')
+        }
+
+
+
     h1 Music Practice Tracker
     p This is the music practic tracker. You can track your habits, update them daily and view your progress towards your goals!
     .habit__container
@@ -19,19 +28,18 @@ html(lang="en")
           h3= val[0].instrument
           for ex in val
 
-            li.card__li #{ ex.key} #{ex.category} #{ex.minutes} #{ex.exercise} #{ex.material}
+            li.card__li #{ ex.key} #{ex.category} #{ex.minutes} #{ex.exercise} #{ex.material} IS AN #{ass}
 
             form(action="/exercise",method="post")
-              input(type='datetime-local' name="datetime" value= locals.now)
-              input(type='string' name="exercise" value= ex.exercise)
-              input(type='string' name="material" value= ex.material)
-              input(type='number' name="mins" value= ex.minutes)
-              input(type='string' name="category" value= ex.category)
-              input(type='string' name="instrument" value= ex.instrument)
+              input.form__input(type='datetime-local' name="datetime" value= locals.now)
+              input.form__input(type='string' name="exercise" value= ex.exercise)
+              input.form__input(type='string' name="material" value= ex.material)
+              input.form__input(type='number' name="mins" value= ex.minutes)
+              input.form__input(type='string' name="category" value= ex.category)
+              input.form__input(type='string' name="instrument" value= ex.instrument)
               
               button(type='submit' value='New Rating!') Click me to submit your Work
 
 
 
 
-  script(src="/pugFunctions.js")

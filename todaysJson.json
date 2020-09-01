@@ -1,7 +1,7 @@
 {
     "bass": [
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "basics",
             "material": [
@@ -12,7 +12,7 @@
             "exercise_number": 1
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "basics",
             "material": [
@@ -23,7 +23,7 @@
             "exercise_number": 2
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "basics",
             "material": [
@@ -34,7 +34,7 @@
             "exercise_number": 3
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "basics",
             "material": [
@@ -45,420 +45,420 @@
             "exercise_number": 4
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "progressions",
             "material": [
-                "Csus47",
-                "C#sus2Δ7",
-                "Ab9b5/#4"
+                "C#m7",
+                "Dsus2b5/#4",
+                "Db5/#4"
             ],
             "exercise": "3/4 time",
             "minutes": 5,
             "exercise_number": 5
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "progressions",
             "material": [
-                "Csus47",
-                "C#sus2Δ7",
-                "Ab9b5/#4"
+                "C#m7",
+                "Dsus2b5/#4",
+                "Db5/#4"
             ],
             "exercise": "5/4 time",
             "minutes": 5,
             "exercise_number": 6
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "progressions",
             "material": [
-                "Csus47",
-                "C#sus2Δ7",
-                "Ab9b5/#4"
+                "C#m7",
+                "Dsus2b5/#4",
+                "Db5/#4"
             ],
             "exercise": "6/4 time",
             "minutes": 5,
             "exercise_number": 7
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "progressions",
             "material": [
-                "Csus47",
-                "C#sus2Δ7",
-                "Ab9b5/#4"
+                "C#m7",
+                "Dsus2b5/#4",
+                "Db5/#4"
             ],
             "exercise": "7/4 time",
             "minutes": 5,
             "exercise_number": 8
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "scales",
             "material": [
-                "G",
                 "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#",
-                "F"
+                "D",
+                "E",
+                "F#",
+                "G#"
             ],
             "exercise": "Ascending from bottom note on instrument",
             "minutes": 3,
             "exercise_number": 9
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "scales",
             "material": [
-                "G",
                 "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#",
-                "F"
+                "D",
+                "E",
+                "F#",
+                "G#"
             ],
             "exercise": "Descending from top note on instrument",
             "minutes": 3,
             "exercise_number": 10
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "scales",
             "material": [
-                "G",
                 "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#",
-                "F"
+                "D",
+                "E",
+                "F#",
+                "G#"
             ],
             "exercise": "Ascending in 3rds",
             "minutes": 3,
             "exercise_number": 11
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "scales",
             "material": [
-                "G",
                 "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#",
-                "F"
+                "D",
+                "E",
+                "F#",
+                "G#"
             ],
             "exercise": "Descending in 3rds",
             "minutes": 3,
             "exercise_number": 12
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "scales",
             "material": [
-                "G",
                 "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#",
-                "F"
+                "D",
+                "E",
+                "F#",
+                "G#"
             ],
             "exercise": "Ascending in 4ths",
             "minutes": 3,
             "exercise_number": 13
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "scales",
             "material": [
-                "G",
                 "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#",
-                "F"
+                "D",
+                "E",
+                "F#",
+                "G#"
             ],
             "exercise": "Descending in 4ths",
             "minutes": 3,
             "exercise_number": 14
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "scales",
             "material": [
-                "G",
                 "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#",
-                "F"
+                "D",
+                "E",
+                "F#",
+                "G#"
             ],
             "exercise": "Ascending in 6ths",
             "minutes": 3,
             "exercise_number": 15
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "scales",
             "material": [
-                "G",
                 "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#",
-                "F"
+                "D",
+                "E",
+                "F#",
+                "G#"
             ],
             "exercise": "Descending in 6ths",
             "minutes": 3,
             "exercise_number": 16
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "scales",
             "material": [
-                "G",
                 "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#",
-                "F"
+                "D",
+                "E",
+                "F#",
+                "G#"
             ],
             "exercise": "Ascending in 7ths",
             "minutes": 3,
             "exercise_number": 17
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "scales",
             "material": [
-                "G",
                 "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#",
-                "F"
+                "D",
+                "E",
+                "F#",
+                "G#"
             ],
             "exercise": "Descending in 7ths",
             "minutes": 3,
             "exercise_number": 18
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "E String  closed  root",
             "minutes": 1,
             "exercise_number": 19
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "A String  closed  root",
             "minutes": 1,
             "exercise_number": 20
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "D String  closed  root",
             "minutes": 1,
             "exercise_number": 21
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "G String  closed  root",
             "minutes": 1,
             "exercise_number": 22
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "E String  closed  2nd inversion",
             "minutes": 1,
             "exercise_number": 23
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "A String  closed  2nd inversion",
             "minutes": 1,
             "exercise_number": 24
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "D String  closed  2nd inversion",
             "minutes": 1,
             "exercise_number": 25
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "G String  closed  2nd inversion",
             "minutes": 1,
             "exercise_number": 26
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "E String  closed  3rd inversion",
             "minutes": 1,
             "exercise_number": 27
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "A String  closed  3rd inversion",
             "minutes": 1,
             "exercise_number": 28
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "D String  closed  3rd inversion",
             "minutes": 1,
             "exercise_number": 29
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "G String  closed  3rd inversion",
             "minutes": 1,
             "exercise_number": 30
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "E String  open  root",
             "minutes": 1,
             "exercise_number": 31
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "A String  open  root",
             "minutes": 1,
             "exercise_number": 32
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "D String  open  root",
             "minutes": 1,
             "exercise_number": 33
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "E String  open  2nd inversion",
             "minutes": 1,
             "exercise_number": 34
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "A String  open  2nd inversion",
             "minutes": 1,
             "exercise_number": 35
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "bass",
             "category": "triads",
             "material": [
-                "C#b5/#4"
+                "Bm"
             ],
             "exercise": "D String  open  2nd inversion",
             "minutes": 1,
@@ -467,7 +467,7 @@
     ],
     "guitar": [
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "basics",
             "material": [
@@ -478,7 +478,7 @@
             "exercise_number": 37
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "basics",
             "material": [
@@ -489,7 +489,7 @@
             "exercise_number": 38
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "basics",
             "material": [
@@ -500,7 +500,7 @@
             "exercise_number": 39
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "basics",
             "material": [
@@ -511,7 +511,7 @@
             "exercise_number": 40
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "basics",
             "material": [
@@ -522,7 +522,7 @@
             "exercise_number": 41
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "basics",
             "material": [
@@ -533,453 +533,453 @@
             "exercise_number": 42
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "progressions",
             "material": [
-                "Fb6/#5",
-                "A#sus4",
-                "F7"
+                "Bsus47",
+                "C#m",
+                "C#b97"
             ],
             "exercise": "3/4 time",
             "minutes": 5,
             "exercise_number": 43
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "progressions",
             "material": [
-                "Fb6/#5",
-                "A#sus4",
-                "F7"
+                "Bsus47",
+                "C#m",
+                "C#b97"
             ],
             "exercise": "5/4 time",
             "minutes": 5,
             "exercise_number": 44
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "progressions",
             "material": [
-                "Fb6/#5",
-                "A#sus4",
-                "F7"
+                "Bsus47",
+                "C#m",
+                "C#b97"
             ],
             "exercise": "6/4 time",
             "minutes": 5,
             "exercise_number": 45
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "progressions",
             "material": [
-                "Fb6/#5",
-                "A#sus4",
-                "F7"
+                "Bsus47",
+                "C#m",
+                "C#b97"
             ],
             "exercise": "7/4 time",
             "minutes": 5,
             "exercise_number": 46
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "scales",
             "material": [
-                "A#",
-                "C",
+                "E",
+                "F#",
+                "G#",
+                "A",
+                "B",
                 "C#",
-                "D#",
-                "F",
-                "G",
-                "A"
+                "D"
             ],
             "exercise": "Ascending from bottom note on instrument",
             "minutes": 3,
             "exercise_number": 47
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "scales",
             "material": [
-                "A#",
-                "C",
+                "E",
+                "F#",
+                "G#",
+                "A",
+                "B",
                 "C#",
-                "D#",
-                "F",
-                "G",
-                "A"
+                "D"
             ],
             "exercise": "Descending from top note on instrument",
             "minutes": 3,
             "exercise_number": 48
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "scales",
             "material": [
-                "A#",
-                "C",
+                "E",
+                "F#",
+                "G#",
+                "A",
+                "B",
                 "C#",
-                "D#",
-                "F",
-                "G",
-                "A"
+                "D"
             ],
             "exercise": "Ascending in 3rds",
             "minutes": 3,
             "exercise_number": 49
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "scales",
             "material": [
-                "A#",
-                "C",
+                "E",
+                "F#",
+                "G#",
+                "A",
+                "B",
                 "C#",
-                "D#",
-                "F",
-                "G",
-                "A"
+                "D"
             ],
             "exercise": "Descending in 3rds",
             "minutes": 3,
             "exercise_number": 50
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "scales",
             "material": [
-                "A#",
-                "C",
+                "E",
+                "F#",
+                "G#",
+                "A",
+                "B",
                 "C#",
-                "D#",
-                "F",
-                "G",
-                "A"
+                "D"
             ],
             "exercise": "Ascending in 4ths",
             "minutes": 3,
             "exercise_number": 51
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "scales",
             "material": [
-                "A#",
-                "C",
+                "E",
+                "F#",
+                "G#",
+                "A",
+                "B",
                 "C#",
-                "D#",
-                "F",
-                "G",
-                "A"
+                "D"
             ],
             "exercise": "Descending in 4ths",
             "minutes": 3,
             "exercise_number": 52
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "scales",
             "material": [
-                "A#",
-                "C",
+                "E",
+                "F#",
+                "G#",
+                "A",
+                "B",
                 "C#",
-                "D#",
-                "F",
-                "G",
-                "A"
+                "D"
             ],
             "exercise": "Ascending in 6ths",
             "minutes": 3,
             "exercise_number": 53
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "scales",
             "material": [
-                "A#",
-                "C",
+                "E",
+                "F#",
+                "G#",
+                "A",
+                "B",
                 "C#",
-                "D#",
-                "F",
-                "G",
-                "A"
+                "D"
             ],
             "exercise": "Descending in 6ths",
             "minutes": 3,
             "exercise_number": 54
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "scales",
             "material": [
-                "A#",
-                "C",
+                "E",
+                "F#",
+                "G#",
+                "A",
+                "B",
                 "C#",
-                "D#",
-                "F",
-                "G",
-                "A"
+                "D"
             ],
             "exercise": "Ascending in 7ths",
             "minutes": 3,
             "exercise_number": 55
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "scales",
             "material": [
-                "A#",
-                "C",
+                "E",
+                "F#",
+                "G#",
+                "A",
+                "B",
                 "C#",
-                "D#",
-                "F",
-                "G",
-                "A"
+                "D"
             ],
             "exercise": "Descending in 7ths",
             "minutes": 3,
             "exercise_number": 56
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "E String  closed  root",
             "minutes": 1,
             "exercise_number": 57
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "A String  closed  root",
             "minutes": 1,
             "exercise_number": 58
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "D String  closed  root",
             "minutes": 1,
             "exercise_number": 59
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "G String  closed  root",
             "minutes": 1,
             "exercise_number": 60
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "E String  closed  2nd inversion",
             "minutes": 1,
             "exercise_number": 61
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "A String  closed  2nd inversion",
             "minutes": 1,
             "exercise_number": 62
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "D String  closed  2nd inversion",
             "minutes": 1,
             "exercise_number": 63
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "G String  closed  2nd inversion",
             "minutes": 1,
             "exercise_number": 64
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "E String  closed  3rd inversion",
             "minutes": 1,
             "exercise_number": 65
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "A String  closed  3rd inversion",
             "minutes": 1,
             "exercise_number": 66
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "D String  closed  3rd inversion",
             "minutes": 1,
             "exercise_number": 67
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "G String  closed  3rd inversion",
             "minutes": 1,
             "exercise_number": 68
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "E String  open  root",
             "minutes": 1,
             "exercise_number": 69
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "A String  open  root",
             "minutes": 1,
             "exercise_number": 70
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "D String  open  root",
             "minutes": 1,
             "exercise_number": 71
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "E String  open  2nd inversion",
             "minutes": 1,
             "exercise_number": 72
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "A String  open  2nd inversion",
             "minutes": 1,
             "exercise_number": 73
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "D String  open  2nd inversion",
             "minutes": 1,
             "exercise_number": 74
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "E String  open  3rd inversion",
             "minutes": 1,
             "exercise_number": 75
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "A String  open  3rd inversion",
             "minutes": 1,
             "exercise_number": 76
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "guitar",
             "category": "triads",
             "material": [
-                "Am7"
+                "D"
             ],
             "exercise": "D String  open  3rd inversion",
             "minutes": 1,
@@ -988,59 +988,59 @@
     ],
     "piano": [
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "progressions",
             "material": [
-                "D#6",
-                "C#sus26",
-                "D#7"
+                "Dsus26",
+                "Esus2",
+                "Esus47"
             ],
             "exercise": "3/4 time",
             "minutes": 5,
             "exercise_number": 78
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "progressions",
             "material": [
-                "D#6",
-                "C#sus26",
-                "D#7"
+                "Dsus26",
+                "Esus2",
+                "Esus47"
             ],
             "exercise": "5/4 time",
             "minutes": 5,
             "exercise_number": 79
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "progressions",
             "material": [
-                "D#6",
-                "C#sus26",
-                "D#7"
+                "Dsus26",
+                "Esus2",
+                "Esus47"
             ],
             "exercise": "6/4 time",
             "minutes": 5,
             "exercise_number": 80
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "progressions",
             "material": [
-                "D#6",
-                "C#sus26",
-                "D#7"
+                "Dsus26",
+                "Esus2",
+                "Esus47"
             ],
             "exercise": "7/4 time",
             "minutes": 5,
             "exercise_number": 81
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "repetoire",
             "material": [
@@ -1051,236 +1051,236 @@
             "exercise_number": 82
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "scales",
             "material": [
-                "F",
-                "G",
-                "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#"
+                "D",
+                "E",
+                "F#",
+                "G#",
+                "A"
             ],
             "exercise": "Ascending from bottom note on instrument",
             "minutes": 3,
             "exercise_number": 83
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "scales",
             "material": [
-                "F",
-                "G",
-                "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#"
+                "D",
+                "E",
+                "F#",
+                "G#",
+                "A"
             ],
             "exercise": "Descending from top note on instrument",
             "minutes": 3,
             "exercise_number": 84
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "scales",
             "material": [
-                "F",
-                "G",
-                "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#"
+                "D",
+                "E",
+                "F#",
+                "G#",
+                "A"
             ],
             "exercise": "Ascending in 3rds",
             "minutes": 3,
             "exercise_number": 85
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "scales",
             "material": [
-                "F",
-                "G",
-                "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#"
+                "D",
+                "E",
+                "F#",
+                "G#",
+                "A"
             ],
             "exercise": "Descending in 3rds",
             "minutes": 3,
             "exercise_number": 86
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "scales",
             "material": [
-                "F",
-                "G",
-                "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#"
+                "D",
+                "E",
+                "F#",
+                "G#",
+                "A"
             ],
             "exercise": "Ascending in 4ths",
             "minutes": 3,
             "exercise_number": 87
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "scales",
             "material": [
-                "F",
-                "G",
-                "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#"
+                "D",
+                "E",
+                "F#",
+                "G#",
+                "A"
             ],
             "exercise": "Descending in 4ths",
             "minutes": 3,
             "exercise_number": 88
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "scales",
             "material": [
-                "F",
-                "G",
-                "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#"
+                "D",
+                "E",
+                "F#",
+                "G#",
+                "A"
             ],
             "exercise": "Ascending in 6ths",
             "minutes": 3,
             "exercise_number": 89
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "scales",
             "material": [
-                "F",
-                "G",
-                "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#"
+                "D",
+                "E",
+                "F#",
+                "G#",
+                "A"
             ],
             "exercise": "Descending in 6ths",
             "minutes": 3,
             "exercise_number": 90
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "scales",
             "material": [
-                "F",
-                "G",
-                "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#"
+                "D",
+                "E",
+                "F#",
+                "G#",
+                "A"
             ],
             "exercise": "Ascending in 7ths",
             "minutes": 3,
             "exercise_number": 91
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "scales",
             "material": [
-                "F",
-                "G",
-                "A",
-                "A#",
-                "C",
+                "B",
                 "C#",
-                "D#"
+                "D",
+                "E",
+                "F#",
+                "G#",
+                "A"
             ],
             "exercise": "Descending in 7ths",
             "minutes": 3,
             "exercise_number": 92
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "triads",
             "material": [
-                "A7"
+                "C#b97"
             ],
             "exercise": "Closed  root",
             "minutes": 5,
             "exercise_number": 93
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "triads",
             "material": [
-                "A7"
+                "C#b97"
             ],
             "exercise": "Closed  2nd inversion",
             "minutes": 5,
             "exercise_number": 94
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "triads",
             "material": [
-                "A7"
+                "C#b97"
             ],
             "exercise": "Closed  3rd inversion",
             "minutes": 5,
             "exercise_number": 95
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "triads",
             "material": [
-                "A7"
+                "C#b97"
             ],
             "exercise": "Open  root",
             "minutes": 5,
             "exercise_number": 96
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "triads",
             "material": [
-                "A7"
+                "C#b97"
             ],
             "exercise": "Open  2nd inversion",
             "minutes": 5,
             "exercise_number": 97
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "piano",
             "category": "triads",
             "material": [
-                "A7"
+                "C#b97"
             ],
             "exercise": "Open  3rd inversion",
             "minutes": 5,
@@ -1289,7 +1289,7 @@
     ],
     "vocals": [
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "vocals",
             "category": "basics",
             "material": [
@@ -1300,7 +1300,7 @@
             "exercise_number": 99
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "vocals",
             "category": "basics",
             "material": [
@@ -1311,7 +1311,7 @@
             "exercise_number": 100
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "vocals",
             "category": "basics",
             "material": [
@@ -1322,7 +1322,7 @@
             "exercise_number": 101
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "vocals",
             "category": "basics",
             "material": [
@@ -1333,7 +1333,7 @@
             "exercise_number": 102
         },
         {
-            "key": "A#",
+            "key": "A",
             "instrument": "vocals",
             "category": "basics",
             "material": [

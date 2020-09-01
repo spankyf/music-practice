@@ -67,6 +67,9 @@ ul {
   list-style-type: none;
 }
 
+.form__input {
+  display: none;
+}
 .card__li {
   font-size: medium;
   padding: 15px;
