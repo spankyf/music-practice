@@ -4,6 +4,7 @@
     "password": "00dfd79fc1796e59fbd0d6e78140a8cca4dbe300a3ffa00448cf831d46de5607",
     "database": "d2ipc50hqn81fu",
     "host": "ec2-54-91-178-234.compute-1.amazonaws.com",
+    "uri": "postgres://aanqlgeiyzwajd:00dfd79fc1796e59fbd0d6e78140a8cca4dbe300a3ffa00448cf831d46de5607@ec2-54-91-178-234.compute-1.amazonaws.com:5432/d2ipc50hqn81fu",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
