@@ -6,7 +6,10 @@ const router = express.Router();
 router
   .route("/")
   .get(exerciseController.makeData, exerciseController.getExercises)
-  .post(exerciseController.addExercise);
+  .post(
+    exerciseController.markCompletedExercise,
+    exerciseController.addExercise
+  );
 
 // router
 //   .route("/:date")

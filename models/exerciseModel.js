@@ -21,6 +21,13 @@ module.exports = (sequelize, DataTypes) => {
         //primaryKey: true,
         // defaultValue: moment().format(moment.HTML5_FMT.DATETIME_LOCAL),
       },
+      // date: {
+      //   type: DataTypes.DATEONLY,
+      //   allowNull: false,
+
+      //   //primaryKey: true,
+      //   // defaultValue: moment().format(moment.HTML5_FMT.DATETIME_LOCAL),
+      // },
       category: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -39,6 +46,11 @@ module.exports = (sequelize, DataTypes) => {
       },
       instrument: {
         type: DataTypes.STRING,
+
+        allowNull: false,
+      },
+      exercise_number: {
+        type: DataTypes.INTEGER,
 
         allowNull: false,
       },
