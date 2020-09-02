@@ -5,6 +5,7 @@ const fs = require("fs");
 var { PythonShell } = require("python-shell");
 
 exports.makeData = async (req, res, next) => {
+  console.log("this is where the makedata should show up");
   console.log(req.app.locals.makeData);
   if (!req.app.locals.makeData) {
     res.locals.data = JSON.parse(fs.readFileSync("todaysJson.json"));
