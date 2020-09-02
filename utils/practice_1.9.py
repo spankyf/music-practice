@@ -54,7 +54,7 @@ def make_schedule():
                                       "exercise": row[0].replace('\x96', ''),
                                       "minutes": row[1],
                                       "exercise_number": exercise_number,
-                                      "practiced": false})
+                                      "practiced": False})
                 time += row[1]
                 exercise_number += 1
 
