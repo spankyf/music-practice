@@ -10,14 +10,17 @@ html(lang="en")
     include ../partials/_header
     script.
         // Sets the username of the current user to be displayed site-wide
-        function say() {
-            console.log('Hey asswipe')
-        }
+        function submitForm(t) {
+              document.body.style.background = 'green'
+              //- return confirm('Rollback deletion of candidate table?');
+              console.log(t.value)
+          }
 
 
 
     h1 Music Practice Tracker
     p This is the music practic tracker. You can track your habits, update them daily and view your progress towards your goals!
+    h2 Todays key is #{data.bass[0].key}
     .habit__container
       
 
@@ -27,8 +30,11 @@ html(lang="en")
 
           h3= val[0].instrument
           for ex in val
-
-            li.card__li #{ ex.key} #{ex.category} #{ex.minutes} #{ex.exercise} #{ex.material} IS AN #{ass}
+            if ex.practiced
+              li.card__li Play #{ex.exercise} for #{ex.minutes} minutes using #{ex.material} is already done!
+            else
+              li.card__li Exercise category is #{ex.category} 
+              li.card__li Play #{ex.exercise} for #{ex.minutes} minutes using #{ex.material}
 
             form(action="/exercise",method="post")
               input.form__input(type='datetime-local' name="datetime" value= locals.now)
@@ -37,8 +43,9 @@ html(lang="en")
               input.form__input(type='number' name="mins" value= ex.minutes)
               input.form__input(type='string' name="category" value= ex.category)
               input.form__input(type='string' name="instrument" value= ex.instrument)
+              input.form__input(type='number' name="exercise_number" value= ex.exercise_number)
               
-              button(type='submit' value='New Rating!') Click me to submit your Work
+              button.ex__form(type='submit' value='New Rating!',onclick='submitForm(' + ex.minutes + ')') Click me to submit your Work
 
 
 

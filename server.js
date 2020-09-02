@@ -9,12 +9,11 @@ const bodyParser = require("body-parser");
 const exerciseRouter = require("./routes/exerciseRoutes");
 
 db.sequelize.sync({ force: true }).then(() => {
-  app.locals.makeData = true;
+  app.locals.makeData = false;
   console.log("Drop and re-sync db.");
 });
 
 app.locals.moment = require("moment");
-app.locals.makeData = true;
 
 app
   .use(bodyParser.urlencoded({ extended: false }))

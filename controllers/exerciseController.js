@@ -22,7 +22,7 @@ exports.makeData = async (req, res, next) => {
     pyshell.on("message", function (data) {
       console.log("                   Python was called...");
       res.locals.data = JSON.parse(data);
-      res.locals.now = moment().format(moment.HTML5_FMT.DATETIME_LOCAL);
+
       next();
     });
 
@@ -37,6 +37,7 @@ exports.makeData = async (req, res, next) => {
 
 exports.getExercises = (req, res) => {
   const data = res.locals.data;
+  req.app.locals.now = moment().format(moment.HTML5_FMT.DATETIME_LOCAL);
   res.status(200).render("pages/exercises", {
     message: "Success",
     data,
@@ -44,10 +45,20 @@ exports.getExercises = (req, res) => {
 };
 
 exports.addExercise = async (req, res) => {
+  console.log(req.body);
+  const data = JSON.parse(fs.readFileSync("todaysJson.json"));
+  const completedExerciseId = (element) =>
+    element.exercise_number === Number(req.body.exercise_number);
+
+  data[req.body.instrument].find(completedExerciseId).practiced = true;
+
   const exercise = await db.Exercise.create(req.body);
 
   req.app.locals.makeData = false;
 
   console.log("Exercise added to db");
-  res.status(201).redirect("back");
+  res.status(201).render("pages/exercises", {
+    message: "Success",
+    data,
+  });
 };

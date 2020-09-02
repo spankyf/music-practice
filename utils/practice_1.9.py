@@ -53,7 +53,8 @@ def make_schedule():
                                       "material": content,
                                       "exercise": row[0].replace('\x96', ''),
                                       "minutes": row[1],
-                                      "exercise_number": exercise_number})
+                                      "exercise_number": exercise_number,
+                                      "practiced": false})
                 time += row[1]
                 exercise_number += 1
 

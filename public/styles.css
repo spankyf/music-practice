@@ -6,6 +6,10 @@ header {
   border: solid black 2px;
 }
 
+/* .ex__form {
+  background: yellow;
+} */
+
 .logo {
   cursor: pointer;
   margin-right: auto;
