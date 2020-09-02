@@ -44,21 +44,31 @@ exports.getExercises = (req, res) => {
   });
 };
 
-exports.addExercise = async (req, res) => {
+exports.markCompletedExercise = (req, res, next) => {
   console.log(req.body);
   const data = JSON.parse(fs.readFileSync("todaysJson.json"));
   const completedExerciseId = (element) =>
     element.exercise_number === Number(req.body.exercise_number);
 
   data[req.body.instrument].find(completedExerciseId).practiced = true;
+  fs.writeFile("todaysJson.json", JSON.stringify(data), "utf8", function (err) {
+    if (err) {
+      return console.log(err);
+    }
 
+    console.log("The file was saved!");
+  });
+  req.app.locals.data = data;
+  next();
+};
+
+exports.addExercise = async (req, res) => {
   const exercise = await db.Exercise.create(req.body);
-
   req.app.locals.makeData = false;
 
   console.log("Exercise added to db");
   res.status(201).render("pages/exercises", {
     message: "Success",
-    data,
+    data: req.app.locals.data,
   });
 };

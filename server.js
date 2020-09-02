@@ -9,7 +9,7 @@ const bodyParser = require("body-parser");
 const exerciseRouter = require("./routes/exerciseRoutes");
 
 db.sequelize.sync({ force: true }).then(() => {
-  app.locals.makeData = false;
+  app.locals.makeData = true;
   console.log("Drop and re-sync db.");
 });
 

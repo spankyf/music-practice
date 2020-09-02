@@ -14,16 +14,21 @@ import json
 # from time import time
 
 
+def make_new_json():
+    if os.path.exists('todaysJson.json'):
+        if datetime.date.fromtimestamp(os.path.getctime('todaysJson.json')) == datetime.date.today():
+            return False
+
+
 def make_schedule():
+    # if not make_new_json():
+    #     return
+
     time = 0
     ex_dict = {}
     exercise_number = 1
     key, scales, triads = build_practice.tonal_scales_triads()
 
-    #state, seed = todays_state()
-    # random.setstate(state)
-    # random.seed(seed)
-    # print(os.getcwd())
     for inst in list(filter(lambda x: '.' not in x, os.listdir('public'))):
         # print(inst)
         if inst == "\n":
