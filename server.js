@@ -10,7 +10,7 @@ const exerciseRouter = require("./routes/exerciseRoutes");
 const userRouter = require("./routes/userRoutes");
 
 db.sequelize.sync({ force: true }).then(() => {
-  app.locals.makeData = false;
+  app.locals.makeData = true;
   console.log("Drop and re-sync db.");
 });
 
