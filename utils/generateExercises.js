@@ -6,7 +6,7 @@ module.exports = function () {
     path.join(__dirname, "practice_2.0.py"),
     {
       mode: "text",
-      pythonPath: "C:/Users/dean/anaconda3/python.exe",
+      // pythonPath: "C:/Users/dean/anaconda3/python.exe",
     },
     function (err, res) {
       if (err) {
