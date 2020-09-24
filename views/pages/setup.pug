@@ -1,0 +1,34 @@
+doctype html
+html(lang="en")
+  head
+    title= title
+
+    link(rel="stylesheet" type="text/css" href="/styles.css")
+  body
+    
+    
+    include ../partials/_header
+    h2 Practice Generation Options
+    //- button(type='button', onclick='bar()' ) PressMe
+
+
+    if todayMade
+      p You logged todays exercises. Here they arr
+
+      include ../partials/_patchForm
+    else
+      p Let's add todays exercises. Pick your options here.
+  
+      include ../partials/_postForm
+      
+
+
+    
+    
+    
+//- script(type='text/javascript', src="js/dayOfYear.js")
+
+
+
+
+

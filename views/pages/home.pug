@@ -9,42 +9,9 @@ html(lang="en")
 
     include ../partials/_header
     h2 Practice Generation Options
-    p Input the practice parameters for today or the next few sessions
-    form.welcome__container(action='/today', method='post')
-      .welcome__card 
-          h3 Time Signatures
-          select(name='timeSig', id='timeSig')
-            each skill in ['3/4', '4/4','5/4','6/4','7/4']
-              option(value= skill, selected= skill === '4/4')= skill
-
-      .welcome__card 
-          h3 Key
-          select(name='key', id='key')
-            each skill in ['random','C', 'C#', 'D','D#','E','F','F#','G','G#','A','A#','B']
-              option(value= skill, selected= skill === 'random')= skill
-      .welcome__card 
-          h3 Instruments
-          select(name='instrument', id='instrument')
-            each skill in ['all','bass','guitar','voice','piano','lyrics']
-              option(value= skill, selected= skill === 'all')= skill
-      .welcome__card 
-          h3 Time
-          input#tentacles(type='number', name='tentacles', min='30',  value=61)
-      .welcome__card 
-          h3 Days to practice over (if you want to do a full program over x amount of day)
-          input#tentacles(type='number', name='tentacles', min='2', max='7', value=4)
-
-      .welcome__card 
-          h3 Essentials Only
-          input#scales(type='checkbox', name='scales')
-          label(for='scales') 
-      .welcome__card 
-          h3 Choose Scale/Mode
-          select(name='mode', id='mode')
-            each skill in ['ionian', 'dorian', 'phyrgian', 'lydian', 'mixolydian', 'aeolian','locrian','Harmonic minor scale', 'Locrian 13 or Locrian 6', 'Ionian #5 (augmented)', 'Dorian #11', 'Phrygian dominant', 'Lydian #2', 'Super locrian bb7','Melodic minor', 'Dorian b2 (aka Phrygian #6)', 'Lydian augmented', 'Lydian dominant (aka overtone scale)', 'Mixolydian b6', 'Aeolian b5 (aka Locrian #2)', 'Altered scale(aka super Locrian)']
-              option(value= skill, selected= skill === 'locrian')= skill
-
-
-
-
-
+    
+    if todayMade
+      p= setupParams.mode
+    else
+      p Input the practice parameters for today or the next few sessions
+    
