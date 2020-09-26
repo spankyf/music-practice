@@ -6,20 +6,15 @@ form.welcome__container(action='/setup', method='post')
             each skill in ['3/4', '4/4','5/4','6/4','7/4']
 
                 option(value= skill, selected= skill === setupParams.timeSig)= skill
-
-            
-
     .welcome__card 
         h3 Key
         select(name='key', id='key')
             each skill in ['random','C', 'C#', 'D','D#','E','F','F#','G','G#','A','A#','B']
-                option(value= skill, selected= skill === setupParams.key)= skill
-
-     
+                option(value= skill, selected= skill === setupParams.key)= skill   
     .welcome__card 
         h3 Instruments
         select(name='instrument', id='instrument')
-            each skill in ['all','bass','guitar','voice','piano','lyrics']
+            each skill in ['all','bass','guitar','piano','lyrics']
                 option(value= skill, selected= skill === setupParams.instrument)= skill
     .welcome__card 
         h3 Time

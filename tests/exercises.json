@@ -1,0 +1,37 @@
+{
+  "piano": {
+    "scales": { "essential": 1 },
+    "chords": { "essential": 1 },
+    "pentatonics": { "essential": 1 },
+    "mikrokosmos": { "essential": 1 },
+    "triads": { "essential": 0 },
+    "spread-triads": { "essential": 0 },
+    "fourths": { "essential": 0 },
+    "spread-fourths": { "essential": 0 },
+    "fifths": { "essential": 0 },
+    "spread-fifths": { "essential": 0 },
+    "stacking-chords": { "essential": 0 }
+  },
+  "bass": {
+    "fretboard-knowledge": { "essential": 1 },
+    "scales": { "essential": 1 },
+    "triads": { "essential": 1 },
+    "rhythm-stick": { "essential": 1 },
+    "dead-goon": { "essential": 1 },
+    "iReal-standard": { "essential": 0 }
+  },
+  "guitar": {
+    "fretboard-knowledge": { "essential": 1 },
+    "scales": { "essential": 1 },
+    "pentatonics": { "essential": 1 },
+    "spread-triads": { "essential": 1 },
+    "rhythm-stick": { "essential": 1 },
+    "dead-goon": { "essential": 1 },
+    "iReal-standard": { "essential": 0 }
+  },
+  "lyrics": {
+    "exercise1": { "essential": 1 },
+    "exercise2": { "essential": 0 },
+    "exercise3": { "essential": 0 }
+  }
+}

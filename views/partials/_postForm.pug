@@ -13,7 +13,7 @@ form.welcome__container(action='/setup', method='post')
     .welcome__card 
         h3 Instruments
         select(name='instrument', id='instrument')
-            each skill in ['all','bass','guitar','voice','piano','lyrics']
+            each skill in ['all','bass','guitar','piano','lyrics']
                 option(value= skill, selected= skill === 'all')= skill
     .welcome__card 
         h3 Time
