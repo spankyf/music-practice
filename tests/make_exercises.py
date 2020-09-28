@@ -17,3 +17,5 @@ modes = {'ionian':[0,2,4,5,7,9,11]}#, 'dorian', 'phyrgian', 'lydian', 'mixolydia
 with open('exercises.json') as json_file:
     data = json.load(json_file)
     
+with open('modes.json') as mode_file:
+    exs = json.load(mode_file)
