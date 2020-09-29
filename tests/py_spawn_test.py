@@ -1,5 +1,5 @@
 import sys
-
+# print(sys.argv)
 my_name = sys.argv[1]
 
 # for n, a in enumerate(sys.argv):

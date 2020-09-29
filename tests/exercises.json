@@ -18,16 +18,15 @@
     "triads": { "essential": 1 },
     "rhythm-stick": { "essential": 1 },
     "dead-goon": { "essential": 1 },
-    "iReal-standard": { "essential": 0 }
+    "iReal-standard": { "essential": 1 }
   },
   "guitar": {
     "fretboard-knowledge": { "essential": 1 },
     "scales": { "essential": 1 },
     "pentatonics": { "essential": 1 },
     "spread-triads": { "essential": 1 },
-    "rhythm-stick": { "essential": 1 },
-    "dead-goon": { "essential": 1 },
-    "iReal-standard": { "essential": 0 }
+
+    "iReal-standard": { "essential": 1 }
   },
   "lyrics": {
     "exercise1": { "essential": 1 },
