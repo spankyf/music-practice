@@ -9,10 +9,10 @@ function getEssential(state) {
     ])
   );
 }
-
-function pickRandom(obj) {
-  var keys = Object.keys(obj);
-  return obj[keys[(keys.length * Math.random()) << 0]];
+// Math.floor(Math.random() * array.length)
+function randomMode(obj) {
+  let num = Math.floor(Math.random() * Object.keys(obj).length);
+  return { [Object.keys(obj)[num]]: obj[Object.keys(obj)[num]] };
 }
 
 const params = {
@@ -22,13 +22,40 @@ const params = {
   time: "61",
   days: "4",
   essentials: "on",
-  mode: "locrian",
+  mode: "random",
   seed: 272,
   date: "9/28/2020",
 };
 
 // module.exports = function (params) {
 const practice = function (params) {
+  const notes = [
+    "C",
+    "C#",
+    "D",
+    "D#",
+    "E",
+    "F",
+    "F#",
+    "G",
+    "G#",
+    "A",
+    "A#",
+    "B",
+    "C",
+    "C#",
+    "D",
+    "D#",
+    "E",
+    "F",
+    "F#",
+    "G",
+    "G#",
+    "A",
+    "A#",
+    "B",
+  ];
+
   let exList = JSON.parse(
     fs.readFileSync(path.join(__dirname, "..", "tests", "exercises.json"))
   );
@@ -45,15 +72,38 @@ const practice = function (params) {
     exList = getEssential(exList);
   }
   // 3 pick random mode if unassigned
-  let mode;
-  if (params.mode !== "random") {
-    mode = pickRandom(modes);
-  } else {
-    mode = params.mode;
+  let mode =
+    params.mode === "random"
+      ? randomMode(modes)
+      : { [params.mode]: modes[params.mode] };
+
+  // extend the array to get the upper extensions of 9, 11, 13 etc
+  let intervals = [...Object.values(mode)[0]];
+
+  let chords = [];
+  let triads = [];
+  let fourths = [];
+  let fifths = [];
+
+  for (let i = 0; i < 7; i++) {
+    intervals.push(Object.values(mode)[0][i] + 12);
   }
 
-  console.log(getEssential(exList));
-  console.log(mode);
+  const twoModeOctaves = intervals.map((ind) => notes[ind]);
+
+  console.log(twoModeOctaves);
+  // for (let i = 0; i < intervals.length; i ++){
+  //   chords.push()
+  // }
+  // 4 make chords - up to down on scale
+
+  // 5 make triads - up to down on scale
+  // 6 make pentatonics - up to down on scale
+  // 7 make fourths
+  // 8 make fifths
+  // console.log(intervals);
+  // console.log(notes);
+
   return;
 };
 
