@@ -29,7 +29,7 @@ def make_schedule():
     exercise_number = 1
     key, scales, triads = build_practice.tonal_scales_triads()
 
-    for inst in list(filter(lambda x: '.' not in x, os.listdir('public'))):
+    for inst in list(filter(lambda x: '.' not in x, os.listdir('test'))):
         # print(inst)
         if inst == "\n":
             continue
